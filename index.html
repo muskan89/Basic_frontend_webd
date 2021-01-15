@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maa Laxmi General store</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="row clearfix">
+                <img src="images/Screenshot (103).png" class="logo" width="5%">
+                <ul class="main-nav" id="check-class">
+                    <li><a href="#">Grocery Delivery</a></li>
+                    <li><a href="#">How to order</a></li>
+                    <li><a href="#">Check More</a></li>
+                    <li><a href="#">Sign up</a></li>
+                </ul>
+                <a href="#" class="mobile-icon" onclick="slideshow()"><i class="fa fa-bars"></i></a>
+            </div>
+        </nav>
+        <div class="main-content-header">
+        <h1>Welcome to <span class="color-ch"> Maa Laxmi General Store</span>.<br>
+            House of Groceries Ooo Yes.</h1>
+            <a href="#" class="btn btn-full">Click to Order</a>
+            <a href="#" class="btn btn-nav">Show me more</a>
+        </div> 
+    </header>
+    <script type="text/javascript">
+        function slideshow(){
+            var x=document.getElementById('check-class');
+            if(x.style.display === "none"){
+                x.style.display="block";
+            }else{
+                x.style.display="none";
+            }
+        }
+    </script>
+</body>
+</html>
